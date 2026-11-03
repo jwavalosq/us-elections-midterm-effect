@@ -1,0 +1,13 @@
+midterm_year,president,president_party,house_before,house_after,house_change,senate_before,senate_after,senate_change,unified_before,unified_after,vep_turnout_pct
+1978,Jimmy Carter,D,292,277,-15,61,58,-3,True,True,
+1982,Ronald Reagan,R,192,165,-27,53,54,1,False,False,
+1986,Ronald Reagan,R,181,177,-4,53,45,-8,False,False,
+1990,George H. W. Bush,R,175,167,-8,45,44,-1,False,False,
+1994,Bill Clinton,D,258,204,-54,57,47,-10,True,False,
+1998,Bill Clinton,D,206,211,5,45,45,0,False,False,
+2002,George W. Bush,R,221,229,8,50,51,1,False,True,
+2006,George W. Bush,R,232,202,-30,55,49,-6,True,False,
+2010,Barack Obama,D,257,193,-64,56,51,-5,True,False,
+2014,Barack Obama,D,201,188,-13,53,44,-9,False,False,36.7
+2018,Donald Trump,R,241,199,-42,52,53,1,True,False,50.1
+2022,Joe Biden,D,222,212,-10,48,48,0,True,False,46.1

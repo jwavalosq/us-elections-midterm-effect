@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>US Elections: The Midterm Effect</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 820px; margin: 0 auto; padding: 24px 20px 64px; color: #1a1a1a; line-height: 1.65; }
+  h1 { font-size: 2.2em; line-height: 1.2; margin-bottom: 0.2em; }
+  h2 { margin-top: 2.2em; border-top: 2px solid #1a1a1a; padding-top: 0.4em; }
+  .lede { font-size: 1.25em; color: #333; }
+  .callout { background: #fff8e1; border-left: 4px solid #e6a700; padding: 14px 18px; margin: 20px 0; }
+  .stat { font-size: 1.6em; font-weight: bold; }
+  img { max-width: 100%; height: auto; border: 1px solid #ddd; margin: 12px 0; }
+  .caption { color: #555; font-size: 0.9em; margin-top: -6px; }
+  .btn { display: inline-block; background: #1a1a1a; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 6px; margin: 6px 8px 6px 0; }
+  .btn.light { background: #fff; color: #1a1a1a; border: 2px solid #1a1a1a; }
+  footer { margin-top: 3em; color: #555; font-size: 0.9em; border-top: 1px solid #ddd; padding-top: 1em; }
+  code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h1>US Elections: The Midterm Effect</h1>
+<p class="lede">Every two years, halfway through a president's term, Americans vote again. Those midterms almost always cost the president's party seats, and that loss changes what the president can actually do.</p>
+<div class="callout">
+<p><strong>Read this first: no November 2026 results exist yet.</strong> This project was built on November 2, 2026. The midterm election is on November 3, 2026, the next day. No results exist yet, and this project does not invent any. Chapter 4 covers what is at stake, forecasts from named sources with dates, and scenarios for each outcome, plus a results section clearly labeled as pending, ready to fill in after November 3. No scenario here is presented as a prediction.</p>
+</div>
+<p>
+  <a class="btn" href="https://github.com/jwavalosq/us-elections-midterm-effect">View the code on GitHub</a>
+  <a class="btn light" href="https://github.com/jwavalosq/us-elections-midterm-effect#how-to-run-it">Run it in Google Colab</a>
+</p>
+
+<h2>Chapter 1: Presidential elections, 1976 to 2024</h2>
+<p>The popular vote winner lost the presidency twice. In 2000, Al Gore won the popular vote by <span class="stat">519,208</span> votes but lost the Electoral College 271 to 266. In 2016, Hillary Clinton won the popular vote by <span class="stat">2,984,618</span> votes but lost the Electoral College 304 to 227. Turnout of eligible voters rose from 51.73 percent in 1996 to 65.28 percent in 2020, with 2024 provisionally estimated at 64.30 percent. The number of states decided by under 5 points bounced between 3 (1984) and 19 (1976), with 8 each in 2020 and 2024. There is no steady decline in competitiveness in this measure.</p>
+<img src="charts/c01_ev_vs_pop.png" alt="Electoral College vs popular vote">
+<p class="caption">When the popular vote and the Electoral College disagree.</p>
+<img src="charts/c01_turnout.png" alt="Turnout over time">
+<p class="caption">Turnout of eligible voters, 1976 to 2024.</p>
+<img src="charts/c01_swing_states.png" alt="Swing states over time">
+<p class="caption">States decided by under 5 points in each election.</p>
+
+<h2>Chapter 2: Midterms, 1978 to 2022</h2>
+<p>The president's party lost House seats in <span class="stat">10 of 12</span> midterms, by an average of 21.2 seats and a median of 14 seats. The exceptions were 1998 (Democrats gained 5) and 2002 (Republicans gained 8). In the Senate, the president's party gained seats in 3 midterms, broke even in 2, and lost seats in 7, for an average loss of 3.25 seats. Six presidents entered a midterm holding a trifecta, and five of the six lost it. The exception was Jimmy Carter in 1978. The only midterm that created a trifecta was 2002.</p>
+<img src="charts/c02_house_change.png" alt="House seat change by midterm">
+<p class="caption">House seat change for the president's party, each midterm.</p>
+<img src="charts/c02_senate_change.png" alt="Senate seat change by midterm">
+<p class="caption">Senate seat change for the president's party, each midterm.</p>
+
+<h2>Chapter 3: What a midterm actually changes</h2>
+<p>Presidents veto more when Congress is controlled by the other party: Ronald Reagan vetoed 78 bills and George H. W. Bush 44, while George W. Bush and Barack Obama vetoed 12 each. Executive orders are the workaround presidents use when Congress will not act, but they can be reversed by the next president. Federal judges need Senate confirmation, so losing the Senate slows confirmations. There have been six major shutdowns since 1995, totaling 123 days, and two of them happened under a unified government, which shows shutdowns are not only a divided government phenomenon. Where the numbers stop proving cause, the project says so.</p>
+<img src="charts/c03_vetoes.png" alt="Vetoes by president">
+<p class="caption">Vetoes by president.</p>
+<img src="charts/c03_executive_orders.png" alt="Executive orders by president">
+<p class="caption">Executive orders by president.</p>
+<img src="charts/c03_judges.png" alt="Judges confirmed by president">
+<p class="caption">Federal judges confirmed, by president.</p>
+<img src="charts/c03_shutdowns.png" alt="Shutdowns since 1995">
+<p class="caption">Major shutdowns since 1995, 123 days in total.</p>
+
+<h2>Chapter 4: November 2026, what is at stake</h2>
+<p>The House has 218 seated Republicans, 214 seated Democrats, 1 independent who caucuses with Republicans, and 2 vacant seats, for a working margin of 219 to 214. Democrats need a net gain of 4 seats to reach 218. Thirty five Senate seats are up, 22 held by Republicans and 13 by Democrats, and Democrats need a net gain of 4 for a majority. Thirty six governorships are up, 18 held by each party. The latest forecasts, all labeled with source and date in chapter 04, include Cook Political Report House ratings of October 30, 2026 (222 Democratic categories, 195 Republican categories, 18 toss-ups) and Cook Senate ratings of October 6, 2026 (47 Democratic aligned, 46 Republican, 7 toss-ups). Scenarios for the rest of the Trump term, which ends January 20, 2029, are presented neutrally: a held trifecta, a Democratic House, a Democratic Senate, and split outcomes. None is presented as expected.</p>
+<img src="charts/c04_house_now.png" alt="House composition now">
+<p class="caption">The House going into November 2026.</p>
+<img src="charts/c04_senate_up.png" alt="Senate seats up in 2026">
+<p class="caption">Senate seats on the ballot in 2026.</p>
+<img src="charts/c04_cook_house.png" alt="Cook House ratings">
+<p class="caption">Cook House ratings, October 30, 2026, as reported.</p>
+<img src="charts/c04_cook_senate.png" alt="Cook Senate ratings">
+<p class="caption">Cook Senate ratings, October 6, 2026, as reported.</p>
+
+<h2>Chapter 5: What to watch</h2>
+<p>When the results land, read them against this history: did the president's party lose the usual number of seats, or beat the pattern? Did a trifecta survive, or fall, as it has in five of six cases? Did the forecast categories hold, or did the toss-ups break one way? Chapter 05 has the update checklist: fill in official results, add a 2026 row to the midterm history table, recompute the averages, and keep the October 2026 forecasts untouched so the project stays an honest pre election record.</p>
+<img src="charts/c05_history_vs_2026.png" alt="History vs 2026">
+<p class="caption">The historical pattern, against the 2026 starting point.</p>
+
+<h2>What was cut, honestly</h2>
+<p>Bills enacted per Congress was cut: no clean, verified per Congress table was secured, so chapter 03 uses vetoes, executive orders, confirmations, and shutdowns instead. No House seat map is included, because it would need district shapefiles and add little to the seat count story. District level 2026 race ratings are presented as aggregates only, because individual race ratings change frequently. Governor toss-up counts are cut, because sources conflict (5 vs 3). No single 2026 prediction is presented, by design. Everything cut is documented in <code>BUILD_REPORT.md</code>.</p>
+<p><a class="btn" href="https://github.com/jwavalosq/us-elections-midterm-effect">Explore the full project</a></p>
+
+<footer>
+  <p>Built by Jesus Avalos. Data: MIT Election Lab, official party division tables, FEC, Clerk of the House data via published tables, and attributed October 2026 forecast reports. Methods: national and state panels 1976 to 2024, midterm history 1978 to 2022, pre election 2026 stakes and scenarios with results pending.</p>
+  <p>Full methods, sources, and limitations: see <a href="https://github.com/jwavalosq/us-elections-midterm-effect/blob/main/BUILD_REPORT.md">BUILD_REPORT.md</a> in the repo.</p>
+</footer>
+
+</body>
+</html>

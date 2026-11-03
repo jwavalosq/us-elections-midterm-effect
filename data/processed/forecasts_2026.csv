@@ -1,0 +1,7 @@
+forecaster,date,chamber,dem_category,rep_category,toss_ups,notes
+"Cook Political Report (as reported Oct 30, 2026)",2026-10-30,House,222,195,18,"Seats in Democratic categories, Republican categories, and toss-ups."
+"Cook Political Report (as reported Oct 23, 2026)",2026-10-23,House,220,198,17,
+"Cook Political Report (as reported Oct 16, 2026)",2026-10-16,House,214,200,21,
+"Cook Political Report (as reported Oct 9, 2026)",2026-10-09,House,213,201,21,
+"Sabato's Crystal Ball (as reported Oct 8, 2026)",2026-10-08,House,214,219,2,"Seats at least Lean Democratic, at least Lean Republican, and toss-ups."
+"Cook Political Report (as reported Oct 6, 2026)",2026-10-06,Senate,47,46,7,"Seats in Democratic-aligned, Republican, and toss-up categories."
